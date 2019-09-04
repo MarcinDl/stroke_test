@@ -6,10 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
-    Wreszcie jako tako działa
-    <button id="button">Przycisk</button>
+    <h1>Stroke test</h1>
+
+    <div id="firstPart" class="firstPart">
+        <div class="firstPart_visibility">
+            <div>Część 1. - zapamiętanie wylosowanego słowa</div>
+            <div id="firstPart_text">Słowo, które masz zapamiętać</div>
+            <div>Czas do zapamietania:</div>
+            <div id="firstPart_result">Kliknij przycisk ponizej, aby uruchomic licznik </div>
+            <button id="counterButton">Uruchom licznik</button>
+        </div>
+    </div> 
+
+    <div id="secondPart" class="secondPart">
+        <div class="secondPart_visibility">
+            <div>Część 2. - wykonaj działania matematyczne</div>
+            Wykonaj działania <br>
+            <div><span id="zeroNumber"></span> - <span id="firstNumber"></span> = <input id="firstAnswer" type="number"></div>
+            <div><span id="secondNumber"></span> - <span id="thirdNumber"></span> = <input id="secondAnswer" type="number"> </div>
+            <div><span id="fourthNumber"></span> - <span id="fifthNumber"></span> = <input id="thirdAnswer" type="number"></div>
+            
+            <button id="checkingAnswers">Sprawdź</button>
+        </div>
+    </div>
+
+    <div id="thirdPart" class="thirdPart">
+        <div class="thirdPart_visibility">
+            <h2>Część 3. - przypomnienie słówka</h2>
+            <div>Ponizej wpisz wyszukane slowo</div>
+            <input type="text" id="zapamietaneSlowo">
+            <button id="memoryButton">Kliknij</button>
+        </div>
+    </div>
+
+
     <script src="js/script.js"></script>
 </body>
 </html>

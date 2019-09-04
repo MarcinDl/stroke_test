@@ -1,4 +1,9 @@
 body {
   background-color: lightseagreen;
+  text-align: center;
+}
+
+.firstPart_visibility {
+  visibility: hidden;
 }
 /*# sourceMappingURL=style.css.map */
